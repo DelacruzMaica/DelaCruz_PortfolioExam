@@ -1,15 +1,21 @@
+import { useNavigate } from "react-router-dom";
+
 function Footer() {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate("/admin");
+  };
+
   return (
-    <div className="navbar bg-dark d-flex justify-content-center">
-      <div className="text-center text-light bg-dark">
-        <footer className="footer">
-      <p>© 2026 Maica Dela Cruz</p>
+    <footer
+      className="bg-dark text-white text-center p-3"
+      onClick={handleClick}
+      style={{ cursor: "pointer" }}
+    >
+      <p>© 2026 My Portfolio</p>
     </footer>
-      </div>
-    </div>
-   
   );
 }
-
 
 export default Footer;
