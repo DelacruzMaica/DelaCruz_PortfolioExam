@@ -7,7 +7,7 @@ function About() {
 
 
           <p>
-            Hello! I am Maica Margarette L. Dela Cruz. Welcome to my APTECH
+            Hello! I am Maica Margarette L. Dela Cruz taking BSIT in University of Baguio. Welcome to my APTECH
             portfolio. This portfolio showcases the ranges of my projects I
             have created using React from first grading to finals. Each
             projects represents my approach to designing and building
